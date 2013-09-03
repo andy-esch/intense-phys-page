@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: auto;
+}
+
+tr th {
+	background: #33CCFF;
+	text-align: center;
+	font-weight: bolder;
+}
+
+tr td {
+	vertical-align: text-top;
+	border-bottom: 1px solid #777;
+	padding: 10px;
+}
+
+td:first-child {
+	font-weight: bold;
+	text-align: center;
+	border-right: 1px solid #777;
+}
+
+th:first-child {
+	width: 150px;
+}
+
+th:first-child th {
+	width: 443px;
+}
+
+th:last-child {
+	width: 443px;
+}
+
+th, td {
+	border: none;
+	padding: 5px;
+}
+
+table {
+	border-spacing: 0px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.weekSummary {
+    width: 1100px;
+}
+
+h2 {
+	text-indent: none;
+}
+
+p.returnToPhysics {
+    font-weight: bolder;
+    text-indent: 20px;
+    margin: 20px;
+}
+
+#headinfo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+    width: 85%;
+    
+}
+
+#nav {
+	padding: 0px 15px;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+#nav ul li{
+	display: inline;
+	padding: 5px;
+}
+
+#nav ul {
+	padding: 3px 15px;
+}
+
+#nav ul li:after {
+	content: "|";
+}
