@@ -22,7 +22,11 @@ tr td {
 td:first-child {
 	font-weight: bold;
 	text-align: center;
-	border-right: 1px solid #777;
+	border-right: none;
+}
+
+td:nth-child(2n) {
+    background-color: #eee;
 }
 
 th:first-child {
@@ -61,6 +65,10 @@ p.returnToPhysics {
     font-weight: bolder;
     text-indent: 20px;
     margin: 20px;
+}
+
+.noLaterThan:hover {
+    text: "No Later Than";
 }
 
 #headinfo {
